@@ -1,0 +1,31 @@
+body{
+  overflow-x:hidden;
+}
+header {
+  padding-left: 5px;
+}
+
+.hidden{
+  z-index: -3
+}
+.logo-navbar{
+  height: 5vh;
+  margin-left: 25px;
+}
+.titre{
+  z-index: 10;
+  color: White;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-indicators, .carousel-control-prev, .carousel-control-next {
+  z-index: 11;
+}
+
+
+.content img{
+  height: 250px;
+  width: auto;
+}
